@@ -20,7 +20,7 @@
   <div class="hero-mark">Live Musical Showcase · Official Programme</div>
 </header>
 <main class="container">
- <section class="intro"><h2>Golden melodies, unforgettable moments</h2><p>Join the Harmonica Club of Gujarat as talented artists revisit beloved Hindi film classics and regional favourites through the expressive sounds of mouth organ, accordion, saxophone, flute, mandolin, melodica and voice.</p></section>
+ <section class="intro"><h2>Golden melodies, unforgettable moments</h2><p>Join the Harmonica Club of Gujarat as talented artists revisit beloved Hindi film classics and regional favourites through the expressive sounds of mouth organ, accordion, saxophone, flute, melodica and voice.</p></section>
  <section class="stats" aria-label="Programme at a glance"><div class="stat"><strong>33</strong><span>Performances</span></div><div class="stat"><strong>21 Oct 2026</strong><span>Event date</span></div><div class="stat"><strong>Classic Hits</strong><span>Timeless melodies</span></div></section>
  <div class="program-head"><div><h2>Performance Lineup</h2><p>Explore the songs, performers and their instruments.</p></div><input class="search" id="songSearch" type="search" aria-label="Search programme" placeholder="Search songs or artists…"></div>
  <section class="table-wrap" aria-label="Performance schedule"><table><thead><tr><th>No.</th><th>Song</th><th>Performer</th><th>Instrument</th><th>Movie / Origin</th><th>Year</th></tr></thead><tbody id="lineup"></tbody></table><p class="empty" id="empty">No performances match your search.</p></section>
@@ -32,13 +32,13 @@ const items = [
 [1,'Yaad Kiya Dil Ne','Group Song','Mouth Organ','Patita','1953'],
 [2,'Teri Pyari Pyari Surat Ko','Sudhir Agarwal','Mouth Organ','Sasural','1961'],
 [3,'Kya Hua Tera Wada','Sandeep Patankar','Mouth Organ','Hum Kisi Se Kam Nahi','1977'],
-[4,'Ye Sham Mastani','Kumarpal Shah','Mouth Organ','Kati Patang','1971'],
+[4,'Mere Range Me Rangne Wali','Mukesh Kaushik','Mouth Organ','Maine Pyar Kiya','1989'],
 [5,'Chukar Mere Man Ko','Rushikumar Pandya','Mouth Organ','Yaarana','1981'],
-[6,'Mere Range Me Rangne Wali','Mukesh Kaushik','Mouth Organ','Maine Pyar Kiya','1989'],
+[6,'Ye Sham Mastani','Kumarpal Shah','Mouth Organ','Kati Patang','1971'],
 [7,'Pyar Deewana Hota Hai','Piyush Chhaya','Mouth Organ','Kati Patang','1971'],
-[8,'Sholay Tune & IGT Medley','Group Song','Mouth Organ','Sholay + IGT Performance','1975'],
+[8,'Lara Lappa Lara Lappa + Ude Jab Jab Jhulfe Teri','Group Song','Mouth Organ','Ek Thi Ladki + Naya Daur','1949 + 1957'],
 [9,'Ye Dil Na Hota Bechara','Yogesh Bhatt','Mouth Organ','Jewel Thief','1967'],
-[10,'Ye Sama Sama He Ye Pyar Ka','Mukund Dixit','Accordion','Jab Jab Phool Khile','1965'],
+[10,'Ye Sama Sama He Ye Pyar Ka','Mukund Dixit','Accordian','Jab Jab Phool Khile','1965'],
 [11,'Kuch To Log Kahenge','Ajay Solanki','Mouth Organ','Amar Prem','1972'],
 [12,'Gulabi Aankhen','Bansi Gajjar','Mouth Organ','The Train','1970'],
 [13,'Roop Tera Mastana','Paresh Bhatia','Saxophone','Aradhana','1969'],
@@ -48,11 +48,11 @@ const items = [
 [17,'Chakke Mein Chakka','Kumarpal Shah','Mouth Organ','Brahmachari','1968'],
 [18,'Nayan Ne Band Rakhi Ne','Rushikumar Pandya','Vocal','Gujarati Ghazal',''],
 [19,'Mana Janab Ne Pukara Nahi','Piyush Chhaya','Mouth Organ','Paying Guest','1957'],
-[20,'Lara Lappa Lara Lappa + Ude Jab Jab Jhulfe Teri','Group Song','Mouth Organ','Ek Thi Ladki + Naya Daur','1949 + 1957'],
+[20,'Sholay Tune & IGT Medley','Group Song','Mouth Organ','Sholay + IGT Performance','1975'],
 [21,'Chalkaye Jam Apki Ankho Ke Naam','Yogesh Bhatt','Melodica','Mere Hamdam Mere Dost','1968'],
 [22,'Dum Maro Dum','Ajay Solanki','Mouth Organ','Hare Rama Hare Krishna','1971'],
 [23,'Chhod Do Aanchal','Bansi Gajjar','Mouth Organ','Paying Guest','1957'],
-[24,'Tujhe Jeevan Ki Dor Se','Mukund Dixit','Mandolin','Asli-Naqli','1962'],
+[24,'Tujhe Jeevan Ki Dor Se','Mukund Dixit','Accordian','Asli-Naqli','1962'],
 [25,'Mere Mehboob Qayamat Hogi','Mukesh Kaushik','Mouth Organ','Mr. X in Bombay','1964'],
 [26,'Aaja Sanam','Group Song','Mouth Organ','Chori Chori','1956'],
 [27,'Bar Bar Dekho','Paresh Bhatia','Saxophone','China Town','1962'],
